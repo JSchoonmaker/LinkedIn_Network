@@ -13,14 +13,14 @@ st.set_page_config(
 )
 
 st.title("LinkedIn Network Visualizer")
-
+st.write('Created by Jeanna Schoonmaker, Dec 2021')
 st.write("For instructions on downloading your LinkedIn connections file, click on the plus sign below")
 with st.expander(''):
     st.write("""
     1. Log in to your LinkedIn account
     2. Click on the down arrow under your profile picture in the upper left hand corner of the screen
     3. Under 'Account' click on 'Settings and Privacy'
-    4. Click on 'Get a copy of your data'
+    4. In the 'Data Privacy' section, click on 'Get a copy of your data'
     5. Click the button next to the second option 'Want something in particular'
     6. Check the box next to 'Connections'
     7. Click on 'Request archive' and enter your password and click 'Done' if needed
