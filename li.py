@@ -8,6 +8,9 @@ import networkx as nx
 import streamlit as st
 from io import StringIO
 
+PAGE_CONFIG = {"page_title":"LinkedIn Network", 
+               }
+
 st.title("LinkedIn Network Visualizer")
 
 st.write("For instructions on downloading your LinkedIn connections file, click on the plus sign below")
