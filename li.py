@@ -8,8 +8,9 @@ import networkx as nx
 import streamlit as st
 from io import StringIO
 
-PAGE_CONFIG = {"page_title":"LinkedIn Network", 
-               }
+st.set_page_config(
+        page_title="LinkedIn Network Graphs",
+)
 
 st.title("LinkedIn Network Visualizer")
 
