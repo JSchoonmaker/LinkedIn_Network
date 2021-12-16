@@ -30,6 +30,13 @@ with st.expander(''):
     """)
     st.markdown('_Please_ _note_ - _no_ _names_ _or_ _email_ _addresses_ _will_ _be_ _used_ _in_ _these_ _graphs._ _Only_ _company_ _names_ _and_ _job_ _titles_ _will_ _be_ _displayed._')
 
+video_file = open("example_vid.webm", "rb").read()
+
+st.write("For a video showing how to use this app, click on the plus sign below")
+with st.expander(''):
+    st.video(video_file)
+
+
 # uploading and cleaning data file
 uploaded_file = st.file_uploader("Choose your LinkedIn Connections.csv file")
 
