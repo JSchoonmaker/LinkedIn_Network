@@ -4,4 +4,3 @@ streamlit==1.2.0
 plotly==4.14.3
 networkx==2.6.3
 pyjanitor==0.22.0
-janitor==0.1.1
