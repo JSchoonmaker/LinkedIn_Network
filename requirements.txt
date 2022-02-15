@@ -1,6 +1,7 @@
+streamlit==1.5.1
+plotly==4.14.3
 pyvis==0.1.9
 pandas==1.2.1
-streamlit==1.2.0
-plotly==4.14.3
 networkx==2.6.3
 pyjanitor==0.22.0
+janitor==0.1.1
