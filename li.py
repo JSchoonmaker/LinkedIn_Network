@@ -1,5 +1,6 @@
 import io
 import pandas as pd
+from janitor import clean_names
 import janitor
 import plotly.express as px
 import streamlit.components.v1 as components
